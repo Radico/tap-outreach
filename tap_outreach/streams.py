@@ -54,7 +54,7 @@ class BOOK(object):
 
 def sync(ctx):
     for stream in ctx.selected_stream_ids:
-        if stream in BOOK.get_incremental_syncs():
+        if stream.upper() in BOOK.get_incremental_syncs():
             bk = call_stream(ctx, stream)
             save_state(ctx, stream, bk)
         else:
@@ -84,6 +84,7 @@ def full_call(ctx, stream):
         params = {'page[offset]': offset}
 
         res = ctx.client.GET(stream, params, stream)
+        write_records(stream, res.get('data'))
 
         if more_records(res):
             offset = update_offset(res, offset)
@@ -130,6 +131,7 @@ def update_offset(res, offset):
         pass
 
     return offset
+
 
 def update_offset_last_updated(res, latest_rec, last_updated, offset):
     if more_records(res):
