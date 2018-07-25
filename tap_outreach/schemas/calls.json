@@ -1,5 +1,363 @@
 {
   "type": "object",
   "properties": {
+    "type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "attributes": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "answeredAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "completedAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "createdAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "direction": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "from": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "note": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "outcome": {
+          "type": [
+            "null"
+          ]
+        },
+        "recordingUrl": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "returnedAt": {
+          "type": [
+            "null"
+          ]
+        },
+        "sequenceAction": {
+          "type": [
+            "null"
+          ]
+        },
+        "state": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "stateChangedAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "to": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "updatedAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "userCallType": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "voicemailRecordingUrl": {
+          "type": [
+            "null"
+          ]
+        }
+      }
+    },
+    "relationships": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "callDisposition": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "callPurpose": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "prospect": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "sequence": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "sequenceState": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "sequenceStep": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "task": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "user": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "links": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "self": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
   }
 }

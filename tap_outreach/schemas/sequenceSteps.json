@@ -1,5 +1,399 @@
 {
   "type": "object",
   "properties": {
+    "relationships": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "sequenceTemplates": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "meta": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "count": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            },
+            "data": {
+              "type": [
+                "null",
+                "array"
+              ],
+              "items": {
+                "type": [
+                  "null",
+                  "object"
+                ],
+                "properties": {
+                  "type": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "id": {
+                    "type": [
+                      "null",
+                      "integer"
+                    ]
+                  }
+                }
+              }
+            },
+            "links": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "related": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "tasks": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "links": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "related": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "calls": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "links": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "related": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "sequence": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "mailings": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "links": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "related": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "creator": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "taskPriority": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "updater": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "attributes": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "taskNote": {
+          "type": [
+            "null"
+          ]
+        },
+        "neutralReplyCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "displayName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "clickCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "interval": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "optOutCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "stepType": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "failureCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "negativeReplyCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "replyCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "deliverCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "positiveReplyCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "bounceCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "scheduleCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "date": {
+          "type": [
+            "null"
+          ]
+        },
+        "openCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "updatedAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "order": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "createdAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "links": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "self": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
   }
 }

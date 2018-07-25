@@ -1,5 +1,478 @@
 {
   "type": "object",
   "properties": {
+    "relationships": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "updater": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "calendar": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "mailbox": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "teams": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "meta": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "count": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            },
+            "data": {
+              "type": [
+                "null",
+                "array"
+              ],
+              "items": {
+                "type": [
+                  "null",
+                  "object"
+                ],
+                "properties": {
+                  "type": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "id": {
+                    "type": [
+                      "null",
+                      "integer"
+                    ]
+                  }
+                }
+              }
+            },
+            "links": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "related": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "creator": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "attributes": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "bounceWarningEmailEnabled": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "custom4": {
+          "type": [
+            "null"
+          ]
+        },
+        "custom5": {
+          "type": [
+            "null"
+          ]
+        },
+        "updatedAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "custom1": {
+          "type": [
+            "null"
+          ]
+        },
+        "custom2": {
+          "type": [
+            "null"
+          ]
+        },
+        "custom3": {
+          "type": [
+            "null"
+          ]
+        },
+        "notificationsEnabled": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "dailyDigestEmailEnabled": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "createdAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "lastSignInAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "senderNotificationsExcluded": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "bridgePhoneExtension": {
+          "type": [
+            "null"
+          ]
+        },
+        "inboundBridgePhone": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "enableVoiceRecordings": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "phoneNumber": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "phoneType": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "inboundCallBehavior": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "inboundVoicemailMessageTextVoice": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "email": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "username": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "taskNotificationsEnabled": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "bridgePhone": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "unknownReplyEmailEnabled": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "inboundBridgePhoneExtension": {
+          "type": [
+            "null"
+          ]
+        },
+        "onboardedAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "activityNotificationsDisabled": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "locked": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "mailboxErrorEmailEnabled": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "firstName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "lastName": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "title": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "prefersLocalPresence": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "phoneCountryCode": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "inboundVoicemailCustomMessageText": {
+          "type": [
+            "null"
+          ]
+        },
+        "controlledTabDefault": {
+          "type": [
+            "null"
+          ]
+        },
+        "weeklyDigestEmailEnabled": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "passwordExpiresAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "duties": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "duty_type": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "name": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "id": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "links": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "self": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
   }
 }

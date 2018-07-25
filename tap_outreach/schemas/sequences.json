@@ -1,5 +1,491 @@
 {
   "type": "object",
   "properties": {
+    "relationships": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "tasks": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "links": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "related": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "calls": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "links": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "related": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "creator": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "sequenceSteps": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "meta": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "count": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            },
+            "data": {
+              "type": [
+                "null",
+                "array"
+              ],
+              "items": {
+                "type": [
+                  "null",
+                  "object"
+                ],
+                "properties": {
+                  "type": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "id": {
+                    "type": [
+                      "null",
+                      "integer"
+                    ]
+                  }
+                }
+              }
+            },
+            "links": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "related": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "mailings": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "links": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "related": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "sequenceStates": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "links": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "related": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "updater": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "ruleset": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "owner": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "attributes": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "lastUsedAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "shareType": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "lockedAt": {
+          "type": [
+            "null"
+          ]
+        },
+        "failureCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "throttleCapacity": {
+          "type": [
+            "null"
+          ]
+        },
+        "deliverCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "updatedAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "throttlePausedAt": {
+          "type": [
+            "null"
+          ]
+        },
+        "createdAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "neutralReplyCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "openCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "clickCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "optOutCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "replyCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "sequenceType": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "enabledAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "description": {
+          "type": [
+            "null"
+          ]
+        },
+        "tags": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "scheduleIntervalType": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "throttlePaused": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "scheduleCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "throttleMaxAddsPerDay": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "locked": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "maxActivations": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "enabled": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "finishOnReply": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "negativeReplyCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "bounceCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "positiveReplyCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "links": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "self": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
   }
 }

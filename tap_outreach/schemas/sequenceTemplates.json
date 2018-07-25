@@ -1,5 +1,249 @@
 {
   "type": "object",
   "properties": {
+    "relationships": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "sequenceStep": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "updater": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "template": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "creator": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "attributes": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "neutralReplyCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "openCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "clickCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "enabled": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "optOutCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "failureCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "negativeReplyCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "replyCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "deliverCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "positiveReplyCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "bounceCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "updatedAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "scheduleCount": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "enabledAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "createdAt": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "links": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "self": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
   }
 }
